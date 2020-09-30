@@ -23,12 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96339cb4-a82f-4813-b9cf-b2105bc9e286" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/files/listeNomVilleFr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony5-baseProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony5-baseProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ApplicationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ApplicationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/application/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/application/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,10 +170,18 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/build" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\symfony-projects\symfony5-baseProject\public\build" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\symfony-projects\symfony5-baseProject\assets\files" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -203,21 +216,33 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="296" key="GridCell.Tab.0.bottom" timestamp="1601387308418">
+    <state x="705" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601464458722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.3440.1400@0.0.1920.1040" timestamp="1601387308418" />
-    <state width="1877" height="296" key="GridCell.Tab.0.center" timestamp="1601387308418">
+    <state x="705" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.3440.1400@0.0.1920.1040" timestamp="1601464458722" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601455722977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.3440.1400@0.0.1920.1040" timestamp="1601387308418" />
-    <state width="1877" height="296" key="GridCell.Tab.0.left" timestamp="1601387308418">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.3440.1400@0.0.1920.1040" timestamp="1601455722977" />
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom" timestamp="1601394268288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.3440.1400@0.0.1920.1040" timestamp="1601387308418" />
-    <state width="1877" height="296" key="GridCell.Tab.0.right" timestamp="1601387308418">
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.3440.1400@0.0.1920.1040" timestamp="1601394268288" />
+    <state width="1877" height="296" key="GridCell.Tab.0.center" timestamp="1601394268288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.3440.1400@0.0.1920.1040" timestamp="1601387308418" />
+    <state width="1877" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.3440.1400@0.0.1920.1040" timestamp="1601394268288" />
+    <state width="1877" height="296" key="GridCell.Tab.0.left" timestamp="1601394268288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.3440.1400@0.0.1920.1040" timestamp="1601394268288" />
+    <state width="1877" height="296" key="GridCell.Tab.0.right" timestamp="1601394268288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.3440.1400@0.0.1920.1040" timestamp="1601394268288" />
+    <state width="515" height="446" key="SwitcherDM" timestamp="1601461494985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="515" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.3440.1400@0.0.1920.1040" timestamp="1601461494985" />
   </component>
 </project>

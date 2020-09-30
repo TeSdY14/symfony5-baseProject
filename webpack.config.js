@@ -52,6 +52,9 @@ Encore
         config.useBuiltIns = 'usage';
         config.corejs = 3;
     })
+    .copyFiles({
+        from: './assets/files'
+    })
 
     // enables Sass/SCSS support
     //.enableSassLoader()

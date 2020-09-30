@@ -6,7 +6,7 @@
     <div class="container">
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown button
+                <i class="fas fa-car"></i>Dropdown button
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">Action</a>
@@ -14,5 +14,14 @@
                 <a class="dropdown-item" href="#">Something else here</a>
             </div>
         </div>
+    </div>
+    <label for="autocomplete"></label><input type="text" name="country" id="autocomplete"/>
+    <p class="result"></p>
+    
+    <div class="js-variablePourJs" data-variable-to-pass="{{ variablePourJs }}">
+        Si tout fonctionne on doit voir => <span id="testVariableToPass"></span>
+    </div>
+    <div class="js-objetPourJs" data-objet-to-pass="{{ objetPourJs.attributUn }}">
+        Avec un Object => <span id="testObjetPourJs"></span>
     </div>
 {% endblock %}
